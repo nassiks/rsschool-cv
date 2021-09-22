@@ -156,6 +156,41 @@
         </div>
       </section>
 
+      <section class="row justify-content-center gy-3">
+        <div id="languages" class="col-md-4">
+          <div class="block">
+            <h3>Languages</h3>
+            <ul>
+              <li><b>Russian</b> - native</li>
+              <li><b>English</b> - A2</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="block">
+            <h3>Code examples</h3>
+            <div id="code">
+              <code style="color: #ffc107">
+                function ShellSort(A) <br />
+                { <br />
+                var n = A.length, i = Math.floor(n/2);<br />
+                while (i > 0) <br />
+                { for (var j = 0; j &lt; n; j++) <br />
+                { var k = j, t = A[j]; <br />
+                while (k >= i && A[k-i] > t) <br />
+                { A[k] = A[k-i]; k -= i; } <br />
+                A[k] = t; <br />
+                } <br />
+                i = (i==2) ? 1 : Math.floor(i*5/11); <br />
+                } <br />
+                return A; <br />
+                } <br />
+              </code>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
 
     <script
