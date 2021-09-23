@@ -6,29 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anastasia Gordeeva</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"
+    <link rel="stylesheet" href="./js/styles/an-old-hope.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
     />
   </head>
   <body>
     <div class="container">
       <header class="header">
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-light shadow-3 p-4">
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#about">About me</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#contacts">Contacts</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#education">Education</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#experience">Work experience</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#skills">Skills</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#video">Video presintation</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#code">Code examples</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#languages">Landuages</a>
-                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="#work">My work</a>
-              </div>
+          <div class="bg-light shadow-3 p-4">
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#about"
+              >About me</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#contacts"
+              >Contacts</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#education"
+              >Education</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#experience"
+              >Work experience</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#skills"
+              >Skills</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#video"
+              >Video presintation</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#code"
+              >Code examples</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#languages"
+              >Landuages</a
+            >
+            <a
+              class="nav-link btn btn-link btn-block border-bottom m-0"
+              href="#work"
+              >My work</a
+            >
+          </div>
         </div>
         <nav class="navbar navbar-light bg-light">
           <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
@@ -49,7 +101,7 @@
       </section>
 
       <section class="row justify-content-center about_contacts gy-3">
-        <div class="icon col-1">
+        <div class="icon col-2 col-md-1 col-lg-1">
           <ul>
             <li><img src="./img/phone.png" alt="phone" /></li>
             <li><img src="./img/email.png" alt="email" /></li>
@@ -59,7 +111,7 @@
             <li><img src="./img/behance.png" alt="behance" /></li>
           </ul>
         </div>
-        <div id="contacts" class="col-md-4">
+        <div id="contacts" class="col col-md-5 col-lg-4">
           <ul>
             <li>
               <b>Phone:</b><a href="tel:+79610911626"> +7(961)091-16-26</a>
@@ -79,7 +131,7 @@
             </li>
           </ul>
         </div>
-        <div id="about" class="col-md-5">
+        <div id="about" class="col-md-8 col-lg-5">
           <h3>About me</h3>
           <p>
             I am a junior web developer. My goal is to become a professional
@@ -134,7 +186,7 @@
         <div id="video" class="col-md-5">
           <div class="block">
             <h3>Video presintation</h3>
-            <video controls="controls" width="450" height="250">
+            <video controls="controls" max-width="450" max-height="250">
               <source src="https://www.youtube.com/watch?v=4CC2yDX_yBc" />
             </video>
           </div>
@@ -154,30 +206,31 @@
         <div class="col-md-5">
           <div class="block">
             <h3>Code examples</h3>
-            <div id="code">
-              <code style="color: #ffc107">
-                function ShellSort(A) <br />
-                { <br />
-                var n = A.length, i = Math.floor(n/2);<br />
-                while (i > 0) <br />
-                { for (var j = 0; j &lt; n; j++) <br />
-                { var k = j, t = A[j]; <br />
-                while (k >= i && A[k-i] > t) <br />
-                { A[k] = A[k-i]; k -= i; } <br />
-                A[k] = t; <br />
-                } <br />
-                i = (i==2) ? 1 : Math.floor(i*5/11); <br />
-                } <br />
-                return A; <br />
-                } <br />
+            <pre>
+              <code id="code">
+function InterpolationSearch(t,A)         
+{                                          
+    var mid, low = 0, high = A.length-1;
+
+    while (A[low] &lt; t && A[high] &gt; t)
+    {  mid = low + Math.floor( ((t-A[low])*(high-low))/(A[high]-A[low]) );
+        if (A[mid] &lt; t) low = mid+1;
+        else if (A[mid] &gt; t) high = mid-1;
+        else return mid;
+    }
+
+    if (A[low] === t) return low;          
+    else if (A[high] === t) return high;    
+    else return -1;
+}
               </code>
-            </div>
+            </pre>
           </div>
         </div>
       </section>
 
-      <section class="row justify-content-center block gy-3">
-        <h3 style="text-align: center">My work</h3>
+      <section id="work" class="row justify-content-center block">
+        <h3 style="text-align: center">My works</h3>
         <div class="col-md-4">
           <div class="card">
             <img src="./img/travel.jpg" class="card-img-top" alt="travel" />
@@ -197,7 +250,7 @@
             </div>
           </div>
         </div>
-        <div class="offset-1 col-md-4">
+        <div class="offset-md-1 col-md-4">
           <div class="card">
             <img src="./img/my_cv.png" class="card-img-top" alt="my_cv" />
             <div class="card-body">
@@ -241,11 +294,19 @@
       </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
       integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
