@@ -124,10 +124,7 @@ ul a:hover {
 }
 
 #code {
-  height: 200px;
-  background: #282b2e;
-  padding: 10px;
-  border: 1px solid #c1c1c1;
+  max-height: 200px;
   overflow-x: scroll;
   overflow-y: scroll;
 }
