@@ -25,3 +25,19 @@ I am well versed in this direction . I try to spend time reading literature on w
 **Title of educational institution:** Volgograd State University
 **City:** Volgograd
 ***
+
+## Work experience
+
+No work experience
+***
+
+## Skills
+* HTML
+* CSS (SCS/SAAS, Bootstrap) 
+* JavaScript
+* **Basic knowledge:** C, C#, SQL, Python, PHP
+* **Version control:** Git (remote service GitHub) 
+* **Graphic editors:** Frigma, Photoshop, Illustrator
+* **OS:** Windows
+* **Editors:** Sublime Text, VSCode
+***
