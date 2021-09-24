@@ -11,3 +11,17 @@
 *  **LinkedIn:**
 *  **Behance:**
 ***
+
+##  About me
+
+I am a junior web developer. My goal is to become a professional front-end developer.
+I am well versed in this direction . I try to spend time reading literature on web development, studying frameworks and practicing writing code every day. I own graphic editors, cross-browser and cross-platform development, adaptive layout. Among my strengths, I can highlight the ability to work in a team, responsibility, perseverance, attentiveness, ability to work and emotional stability. I really want to develop professionally in this direction.
+***
+
+## Education
+
+**Date:** 2018-2022
+**Major:** Applied informatics
+**Title of educational institution:** Volgograd State University
+**City:** Volgograd
+***
